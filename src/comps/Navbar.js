@@ -5,15 +5,14 @@ function Navbar() {
     <div className='nav' >
         <img className='nav-logo' src="logo.png" alt="" />
         <div className='nav-title' >
-            <a className='nav-link' href="">Home</a>
-            <a className='nav-link' href="">About</a>
-            <a className='nav-link' href="">Find a Job</a>
-            <a className='nav-link' href="">Blog</a>
-            <a className='nav-link' href="">Join us</a>
-            <a className='nav-link' href="">Contact</a>
+            <a className='nav-link' href="/main">Home</a>
+            <a className='nav-link' href="/about">About</a>
+            <a className='nav-link' href="/find">Find a Job</a>
+            <a className='nav-link' href="/blog">Blog</a>
+            <a className='nav-link' href="/join">Join us</a>
+            <a className='nav-link' href="/contact">Contact</a>
         </div>
         <button className='button' > Sign Up/ Login</button>
-
     </div>
   )
 }
